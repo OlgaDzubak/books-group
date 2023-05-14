@@ -3,6 +3,7 @@ import { supportItems } from './support_ukraie_items';
 const galleryItemsContainer = document.querySelector('.mySwiper');
 const fundsMarkup = createFundsMarkup(supportItems);
 
+console.log("support ukraine.js");
 galleryItemsContainer.insertAdjacentHTML('beforeend', fundsMarkup);
 
 // function numberFounds(arr) {

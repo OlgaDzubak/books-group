@@ -1,6 +1,9 @@
+
 import './js/shopping_list';
 import './js/support_ukraine';
 import './js/mobile_menu';
+
+console.log("shopping list.js"); 
 
 const shoppingListLinkEl = document.querySelector('.js-nav-shoppinglistlink');
 const mobileShoppingListLinkEl = document.querySelector('.js-mobile-nav-shoppinglistlink');

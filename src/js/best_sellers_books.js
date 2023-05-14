@@ -5,6 +5,8 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 import { booksAPI } from './booksAPI'; 
 //import ...
 
+console.log("abestsellers books.js")
+
 // Змінна що зберігає дів куди добавляти розмітку
 const list = document.querySelector('.best-books')
 list.addEventListener('click', loadMore)

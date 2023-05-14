@@ -8,6 +8,8 @@ import './js/autorization_modal_window'
 import './js/book_modal_window'
 import './js/mobile_menu'
 
+console.log("indeex.js");
+
 const homeLinkEl = document.querySelector('.js-nav-homelink');
 const mobileHomeLinkEl = document.querySelector('.js-mobile-nav-homelink');
 homeLinkEl.classList.toggle('selected');

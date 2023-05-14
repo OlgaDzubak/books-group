@@ -3,6 +3,8 @@ const backdrop = document.querySelector('.backdrop');
 const closeBtn = document.querySelector('.close-button');
 const modalForm = document.querySelector('.modalForm');
 
+console.log("autorization.js");
+
 openBtn.addEventListener('click', onOpenModal);
 closeBtn.addEventListener('click', onCloseModal);
 

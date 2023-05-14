@@ -3,6 +3,8 @@ const mobileDivEl = document.querySelector('.js-mobile-menu');
 const iconOpenMobileMenu = document.querySelector('.icon-burger-mobile-menu');
 const iconCloseMobileMenu = document.querySelector('.icon-close-mobile-menu');
 
+console.log("mobile menu.js");
+
 burgerBtnEl.addEventListener('click', onOpenMobileMenu);
 
 function onOpenMobileMenu(evt) {

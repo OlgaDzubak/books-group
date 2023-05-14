@@ -2,6 +2,8 @@ import createOrderedBooksCards from "../tamplates/book-cards.hbs";
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { booksAPI } from "./booksAPI";
 
+console.log("shopping list.js");
+
 const shoppingListDiv = document.querySelector('ul.shopping_booklist');
 shoppingListDiv.innerHTML = "";
 const booksApi = new booksAPI();
